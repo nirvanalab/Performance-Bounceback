@@ -13,11 +13,6 @@ public class Throw : MonoBehaviour
     void Start()
     {
         trackedObj = GetComponent<SteamVR_TrackedObject>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         device = SteamVR_Controller.Input((int)trackedObj.index);
     }
 
