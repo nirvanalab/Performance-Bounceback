@@ -22,8 +22,6 @@ public class Throw : MonoBehaviour
         {
             if (device.GetPressUp(SteamVR_Controller.ButtonMask.Trigger))
             {
-                Debug.Log("You have released the trigger");
-
                 //Multi Throwing
                 col.transform.SetParent(null);
                 Rigidbody rigidBody = col.GetComponent<Rigidbody>();
