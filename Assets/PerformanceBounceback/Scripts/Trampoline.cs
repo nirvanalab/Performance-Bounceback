@@ -21,7 +21,6 @@ public class Trampoline : MonoBehaviour {
             scoreScript.score++;
             //Particle effect
             pSystem.Play();
-            col.gameObject.SetActive(false);
        }
 
     }
